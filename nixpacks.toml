@@ -1,8 +1,0 @@
-[phases.build]
-cmds = ['pip install -r requirements.txt']
-
-[phases.setup]
-nixPkgs = ['python311', 'gcc']
-
-[start]
-cmd = 'python bot.py'
